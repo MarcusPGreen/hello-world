@@ -16,7 +16,7 @@
         else{
             nextVictory(0);
         }
-  }
+    }
 
     function processEntrant(entrant,i){
         var coli = i < 32 ? 0 : 11;
@@ -56,7 +56,7 @@
     function scaleFont(textlength,boxwidth,boxheight){
         var rows = 1;
         var fontscale = boxheight / rows;
-        var estwidth = fontscale * 0.75 * textlength;
+        var estwidth = fontscale * 1.5 * textlength;
         while(estwidth > boxwidth){
             rows++;
             var fontscale = boxheight / rows;
