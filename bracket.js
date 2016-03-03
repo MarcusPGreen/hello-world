@@ -5,7 +5,7 @@
     var spacepadding = 2;
     var colwidth = width / 12 - spacepadding;
     var rowheight = height / 32 - spacepadding;
-    var timedelay = 200;
+    var timedelay = 10000 / (entrants.length);
 
     function nextEntrant(i){
         processEntrant(entrants[i],i);
