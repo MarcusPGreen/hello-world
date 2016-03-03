@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        #bracketspace{
+            width:100%;
+            height:720px;
+        }
+        .entrant{
+            position:absolute;
+            border: 1px solid black;
+            text-align: center;
+            word-wrap: break-word;
+        }
+        div[col="0"],div[col="11"]{
+            background:#ffffff;
+        }
+        div[col="1"],div[col="10"]{
+            background:#dddddd;
+        }
+        div[col="2"],div[col="9"]{
+            background:#bbbbbb;
+        }
+        div[col="3"],div[col="8"]{
+            background:#999999;
+        }
+        div[col="4"],div[col="7"]{
+            background:#777777;
+        }
+        div[col="5"],div[col="6"]{
+            background:#555555;
+        }
 
+    </style>
+    <script type="text/javascript" src="../jquery-2.2.1.js"></script>
+
+</head>
+<body>
+    <div id="bracketspace"></div>
+
+    <script type="text/javascript" src="js/bracket.js"></script>
+</body>
+</html>
